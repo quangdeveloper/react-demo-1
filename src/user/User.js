@@ -161,6 +161,8 @@ class User extends React.Component {
                                     <TableData key={i} user={user} editUser={this.editUser.bind(this, user)}
                                                deleteUser={this.deleteUser.bind(this, user.id, "ahihi")}/>)}
                                 </tbody>
+
+
                             </Table>
                         </Col>
                         <Col lg={5}>
